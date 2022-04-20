@@ -1,2 +1,2 @@
-# P-gina-de-not-cias
-exercício em HTML5 e CSS3 
+PAGINA DE NOTICIAS
+EXERCICIO DE HTML5 e CSS3
