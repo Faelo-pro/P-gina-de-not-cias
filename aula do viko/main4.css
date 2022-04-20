@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+* {
+  list-style-type: none;
+  text-decoration: none;
+}
+@font-face {
+  font-family:"EDITION";
+  src: url("fonts/EDITION_.TTF") format("TRUETYPE");
+}
+@font-face {
+  font-family:"Mermaid";
+  src: url("fonts/Mermaid1001.ttf") format("truetype");
+}
+
+/*cabeçalho*/
+
+.header {
+  background:linear-gradient(to left, #ffffff,white, rgba(250, 128, 114, 0.61));
+  display:flex;
+  justify-content: space-between;
+  padding:20px;
+  align-items: center;
+  flex-wrap: wrap;
+  }
+.menu {
+  margin:5px;
+  }
+.principal {
+  border-top:1px solid black;
+  flex-direction: column;
+  display:flex;
+}
+
+main {
+  background-image: url(../imagens/café1.jpg);
+  background-size: cover;
+}
+.botaovoltar {
+  display:flex;
+width:15%;
+height:15%;
+margin:20px;
+margin-left: 60px;
+justify-content: space-between;
+}
+
+a {
+  color:brown;
+  margin:10px;
+}
+p {
+  color:black;
+  font-size:20px;
+  font-family:"Mermaid";
+  display:flex;  
+  height:18%;
+  width:40%;
+}
+.paragrafo {
+  display:flex;
+  margin:150px;
+  height: 80%;
+  background-color: rgba(255, 127, 80, 0.178);
+}
+h1 {
+  color:rgb(70,35,2);
+  width: 50%;
+  font-size: 80px;
+  text-align: center;
+  font-family:"Mermaid";
+}
+h2 {
+  color:orangered;
+  margin-left: 300px;
+  display:flex;
+  font-family:"Mermaid";
+  height:26%;
+  width: 60%;
+  margin-top:30px;
+}
+h3 {
+  color:rgb(70,35,2);
+}
+label {
+  color:rgb(70,35,2);
+}
+#menuPrincipal {
+display:flex;
+width:100%;
+height:600px;
+flex-direction: row;
+background-image:linear-gradient(to bottom,#ffffff,rgba(238, 130, 238, 0.267));
+}
+.img3 {
+  display:flex;
+  height:60%;
+  width: 110%;
+  margin-top: -55px;
+  margin-left:100px;
+}
